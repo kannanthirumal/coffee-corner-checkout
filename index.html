@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Coffee Corner | Checkout</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./coffee.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <span class="brand-logo">
+        <img class="brand-logo-img" src="./images/brand_logo.png" />
+      </span>
+      <span class="brand"><h1>Coffee Corner</h1></span>
+    </header>
+
+    <section class="page">
+      <section class="order box">
+        <h2 class="box-title">ITEMS</h2>
+        <ul class="items">
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-name">Masala Chai</div>
+            <div class="item-price">₹60.00</div>
+            <ul class="item-options">
+              <li class="item-option">Ginger</li>
+              <li class="item-option">Cardamom</li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-name">Filter Coffee</div>
+            <div class="item-price">₹70.00</div>
+            <ul class="item-options">
+              <li class="item-option">Extra Milk</li>
+              <li class="item-option">Less Sugar</li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-name">Samosa (2 pcs)</div>
+            <div class="item-price">₹40.00</div>
+            <ul class="item-options">
+              <li class="item-option">Mint Chutney</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="payment">
+        <div class="name-box box">
+          <h2 class="box-title">NAME</h2>
+          <div class="input-group">
+            <label for="name" class="user-input-label">Name for order</label>
+            <input type="text" class="user-input-field" id="name" />
+          </div>
+        </div>
+        <div class="card-box box">
+          <h2 class="box-title">PAYMENT</h2>
+          <div class="input-group">
+            <label for="card-number" class="user-input-label"
+              >Card number</label
+            >
+            <input type="text" class="user-input-field" id="card-number" />
+          </div>
+          <div class="input-group">
+            <label for="cvv" class="user-input-label">CVV number</label>
+            <input
+              type="text"
+              class="user-input-field short-input-field"
+              id="cvv"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="total">
+        <table class="total-table">
+          <tbody>
+            <tr>
+              <td>Subtotal:</td>
+              <td>₹170.00</td>
+            </tr>
+            <tr>
+              <td>Tax:</td>
+              <td>₹5.20</td>
+            </tr>
+            <tr class="final-total">
+              <td>Total:</td>
+              <td>₹175.20</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="checkout-btn" type="button">Place order</button>
+      </section>
+    </section>
+  </body>
+</html>
+
+<!-- 
+
+1x
+Masala Chai
+₹60.00
+Add: Ginger or Cardamom
+
+1x
+Filter Coffee
+₹70.00
+Add: Extra Milk / Less Sugar
+
+1x
+Samosa (2 pcs)
+₹40.00
+Add: Mint Chutney / Tamarind Chutney
+
+1x
+Vada Pav
+₹50.00
+Add: Spicy Garlic Chutney
+
+1x
+Pav Bhaji
+₹90.00
+Add: Extra Butter / Cheese Topping
+
+----
+
+ITEMS
+
+1x
+Masala Chai
+₹60.00
+Traditional spiced tea
+
+1x
+Filter Coffee
+₹70.00
+South Indian style brewed coffee
+
+1x
+Samosa (2 pcs)
+₹40.00
+Crispy pastry filled with spicy potatoes and peas
+
+1x
+Vada Pav
+₹50.00
+Spiced potato fritter in a bun with chutneys
+
+1x
+Pav Bhaji
+₹90.00
+Spicy mixed vegetable curry served with buttered buns
+
+-->
